@@ -19,8 +19,8 @@
 ****
 
  <a id="Pre-requisitos"></a>
-## Pré-requisitos  >> <small>
-[**->Voltar Início**](#home)</small>
+## Pré-requisitos  >> 
+<small>[**->Voltar Início**](#home)</small>
 
 Certifique-se de ter o **Docker** e o **Docker Compose** instalados em sua máquina.
 
@@ -30,8 +30,8 @@ Certifique-se de ter o **Docker** e o **Docker Compose** instalados em sua máqu
 <hr>
 
  <a id="Configuracao-do-Ambiente"></a>
-## Configuração do Ambiente  >> <small>
-[**->Voltar Início**](#home)</small>
+## Configuração do Ambiente  >> 
+<small>[**->Voltar Início**](#home)</small>
 
 Este projeto utiliza um arquivo `docker-compose.yml` e um `Dockerfile` para configurar o ambiente de desenvolvimento.
 
@@ -56,7 +56,9 @@ services:
       - ./app:/app
 ```
 
-O `Dockerfile` define a imagem base `haskell:latest` e define o diretório de trabalho no contêiner como `/app`.
+O `Dockerfile` define a imagem base `haskell:latest` e define o diretório de trabalho no contêiner como `/app`. E posteriormente, assim como no `docker-compose.yml`, poderá ser acrescentado novas configurações conforme for necessário.
+
+**Dockerfile:**
 
 ```dockerfile
 # Define a imagem base
@@ -68,8 +70,8 @@ WORKDIR /app
 <hr>
 
  <a id="Como-utilizar-o-Projeto"></a>
-## Como utilizar o Projeto  >> <small>
-[**->Voltar Início**](#home)</small>
+## Como utilizar o Projeto  >> 
+<small>[**->Voltar Início**](#home)</small>
 
 1. **Clone** ou faça **download** deste repositório em sua máquina:
 
@@ -118,9 +120,9 @@ WORKDIR /app
 
 <hr>
 
-[**->Voltar Início**](#home)</small>
-## Como rodar o exemplo  >> <small>
  <a id="Como-rodar-o-exemplo"></a>
+## Como rodar o exemplo  >> 
+<small>[**->Voltar Início**](#home)</small>
 
 Para testar a função `main` do arquivo **Main.hs** localizado em >> `app/Main.hs`, compile o arquivo e execute no terminal. Seguindo os passos:
 
@@ -165,8 +167,8 @@ root@haskell-app:/app#  ./Main 20 40
 <hr>
 
  <a id="Como-rodar-um-novo-arquivo-usando-o-GHC"></a>
-## Como rodar um novo arquivo usando o GHC  >> <small>
-[**->Voltar Início**](#home)</small>
+## Como rodar um novo arquivo usando o GHC  >> 
+<small>[**->Voltar Início**](#home)</small>
 
 Crie seu arquivo e salve com extensão `.hs`, >> exemplo: `MeuAppHaskell.hs`.
 
