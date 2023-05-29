@@ -4,7 +4,21 @@
 
 <hr>
 
-## Pré-requisitos
+***Sumário**
+
+- [**Pré-requisitos**](#Pre-requisitos) 
+- [**Configuração do Ambiente**](#Configuracao-do-Ambiente) 
+- [**Como utilizar o Projeto**](#Como-utilizar-o-Projeto) 
+- [**Como rodar o exemplo**](#Como-rodar-o-exemplo) 
+- [**Como rodar um novo arquivo usando o GHC**](#Como-rodar-um-novo-arquivo-usando-o-GHC) 
+
+
+<hr>
+
+****
+
+## Pré-requisitos  >> <small>[**Início**](#home)</small>
+ <a id="Pre-requisitos"></a>
 
 Certifique-se de ter o **Docker** e o **Docker Compose** instalados em sua máquina.
 
@@ -13,7 +27,8 @@ Certifique-se de ter o **Docker** e o **Docker Compose** instalados em sua máqu
 
 <hr>
 
-## Configuração do Ambiente
+## Configuração do Ambiente  >> <small>[**Início**](#home)</small>
+ <a id="Configuracao-do-Ambiente"></a>
 
 Este projeto utiliza um arquivo `docker-compose.yml` e um `Dockerfile` para configurar o ambiente de desenvolvimento.
 
@@ -49,7 +64,8 @@ WORKDIR /app
 ```
 <hr>
 
-## Para utilizar o Projeto
+## Como utilizar o Projeto  >> <small>[**Início**](#home)</small>
+ <a id="Como-utilizar-o-Projeto"></a>
 
 1. **Clone** ou faça **download** deste repositório em sua máquina:
 
@@ -98,7 +114,8 @@ WORKDIR /app
 
 <hr>
 
-## Para rodar o exemplo
+## Como rodar o exemplo  >> <small>[**Início**](#home)</small>
+ <a id="Como-rodar-o-exemplo"></a>
 
 Para testar a função `main` do arquivo **Main.hs** localizado em >> `app/Main.hs`, compile o arquivo e execute no terminal. Seguindo os passos:
 
@@ -142,7 +159,8 @@ root@haskell-app:/app#  ./Main 20 40
 
 <hr>
 
-## Para rodar um novo arquivo usando o GHC
+## Como rodar um novo arquivo usando o GHC  >> <small>[**Início**](#home)</small>
+ <a id="Como-rodar-um-novo-arquivo-usando-o-GHC"></a>
 
 Crie seu arquivo e salve com extensão `.hs`, >> exemplo: `MeuAppHaskell.hs`.
 
