@@ -1,4 +1,5 @@
-# Meu Projeto **Haskell** para estudo e Laboratório
+<a id="Home"></a>
+# Ambiente para Estudo e Laboratório **Haskell** com Docker
 
 ### O intuito deste projeto com **Docker** e **Docker Compose** é fornecer um ambiente de desenvolvimento consistente e simples, afim de  facilitar estudos e laboratórios, principalmente de quem está iniciando em **Haskell**.
 
@@ -17,8 +18,9 @@
 
 ****
 
-## Pré-requisitos  >> <small>[**Início**](#home)</small>
  <a id="Pre-requisitos"></a>
+## Pré-requisitos  >> <small>
+[**->Voltar Início**](#home)</small>
 
 Certifique-se de ter o **Docker** e o **Docker Compose** instalados em sua máquina.
 
@@ -27,8 +29,9 @@ Certifique-se de ter o **Docker** e o **Docker Compose** instalados em sua máqu
 
 <hr>
 
-## Configuração do Ambiente  >> <small>[**Início**](#home)</small>
  <a id="Configuracao-do-Ambiente"></a>
+## Configuração do Ambiente  >> <small>
+[**->Voltar Início**](#home)</small>
 
 Este projeto utiliza um arquivo `docker-compose.yml` e um `Dockerfile` para configurar o ambiente de desenvolvimento.
 
@@ -64,8 +67,9 @@ WORKDIR /app
 ```
 <hr>
 
-## Como utilizar o Projeto  >> <small>[**Início**](#home)</small>
  <a id="Como-utilizar-o-Projeto"></a>
+## Como utilizar o Projeto  >> <small>
+[**->Voltar Início**](#home)</small>
 
 1. **Clone** ou faça **download** deste repositório em sua máquina:
 
@@ -114,7 +118,8 @@ WORKDIR /app
 
 <hr>
 
-## Como rodar o exemplo  >> <small>[**Início**](#home)</small>
+[**->Voltar Início**](#home)</small>
+## Como rodar o exemplo  >> <small>
  <a id="Como-rodar-o-exemplo"></a>
 
 Para testar a função `main` do arquivo **Main.hs** localizado em >> `app/Main.hs`, compile o arquivo e execute no terminal. Seguindo os passos:
@@ -159,8 +164,9 @@ root@haskell-app:/app#  ./Main 20 40
 
 <hr>
 
-## Como rodar um novo arquivo usando o GHC  >> <small>[**Início**](#home)</small>
  <a id="Como-rodar-um-novo-arquivo-usando-o-GHC"></a>
+## Como rodar um novo arquivo usando o GHC  >> <small>
+[**->Voltar Início**](#home)</small>
 
 Crie seu arquivo e salve com extensão `.hs`, >> exemplo: `MeuAppHaskell.hs`.
 
