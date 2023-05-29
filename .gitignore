@@ -1,0 +1,24 @@
+# Arquivos compilados Haskell
+*.o
+*.hi
+*.hie
+*.ho
+.hpc/
+
+# Arquivos gerados pelo Cabal
+dist/
+
+# Arquivos gerados pelo Stack
+.stack-work/
+.stack-work-*/
+
+# Arquivos gerados pelo GHC
+.hie/
+.hie.yaml
+.hie-bios
+.hi/
+
+# Arquivos gerados por IDEs
+.idea/
+.vscode/
+
