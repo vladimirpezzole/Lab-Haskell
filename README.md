@@ -1,15 +1,15 @@
 # Meu Projeto **Haskell** para estudo e Laboratório
 
-### O intuito deste projeto com **Docker** e **Docker Compose** é para fornecer um ambiente de desenvolvimento consistente e simples, afim de  facilitar estudos e laboratórios principalmente de quem está iniciando em **Haskell**.
+### O intuito deste projeto com **Docker** e **Docker Compose** é fornecer um ambiente de desenvolvimento consistente e simples, afim de  facilitar estudos e laboratórios, principalmente de quem está iniciando em **Haskell**.
 
 <hr>
 
 ## Pré-requisitos
 
-Certifique-se de ter o Docker e o Docker Compose instalados em sua máquina.
+Certifique-se de ter o **Docker** e o **Docker Compose** instalados em sua máquina.
 
-- Docker: [https://docs.docker.com/get-docker/](https://docs.docker.com/get-docker/)
-- Docker Compose: [https://docs.docker.com/compose/install/](https://docs.docker.com/compose/install/)
+- **Docker:** [https://docs.docker.com/get-docker/](https://docs.docker.com/get-docker/)
+- **Docker Compose:** [https://docs.docker.com/compose/install/](https://docs.docker.com/compose/install/)
 
 <hr>
 
@@ -119,6 +119,7 @@ meuusuario@linux:~/Lab-Haskell$ docker compose exec haskell-app bash
 No terminal interativo dentro do contêiner na pasta `app` :
 
 ```bash
+>> digite -> ghc Main.hs
 root@haskell-app:/app# ghc Main.hs
 
 >> resultado
